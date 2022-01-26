@@ -14,38 +14,53 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
-      <a class="webstudio" href="index.html"
+    <header class="header-container container">
+      <a class="header webstudio" href="index.html"
         ><span class="web">Web</span><span class="studio">Studio</span></a
       >
       <nav>
-        <ul class="header_nav_ul">
-          <li><a class="header_nav_li" href="#">Agencja</a></li>
-          <li><a class="header_nav_li" href="#">Portfolio</a></li>
-          <li><a class="header_nav_li" href="#">Kontakt</a></li>
+        <ul class="header_nav_ul header-nav-container">
+          <li><a class="header_nav_li agencja" href="#">Agencja</a></li>
+          <li>
+            <a class="header_nav_li portfolio" href="portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li><a class="header_nav_li kontakt" href="#">Kontakt</a></li>
         </ul>
       </nav>
+
       <a class="header_mail" href="mailto:info@devstudio.com"
         >info@devstudio.com</a
       >
       <a class="header_tel" href="tel:+48111111111">+48 111 111 111</a>
     </header>
     <main>
-      <ul class="main_button_ul">
+      <ul class="main_button_ul container">
         <li>
-          <button class="portfolio_buttons" type="button">Wszystkie</button>
+          <button class="portfolio_buttons Wszystkie" type="button">
+            Wszystkie
+          </button>
         </li>
-        <li><button class="portfolio_buttons" type="button">Strony</button></li>
         <li>
-          <button class="portfolio_buttons" type="button">Aplikacje</button>
+          <button class="portfolio_buttons strony" type="button">Strony</button>
         </li>
-        <li><button class="portfolio_buttons" type="button">Dizajn</button></li>
         <li>
-          <button class="portfolio_buttons" type="button">Marketing</button>
+          <button class="portfolio_buttons Aplikacje" type="button">
+            Aplikacje
+          </button>
+        </li>
+        <li>
+          <button class="portfolio_buttons dizajn" type="button">Dizajn</button>
+        </li>
+        <li>
+          <button class="portfolio_buttons marketing" type="button">
+            Marketing
+          </button>
         </li>
       </ul>
       <section>
-        <ul class="section_ul">
+        <ul class="section_ul container">
           <li>
             <figure>
               <img
@@ -55,9 +70,8 @@
                 height="294"
               />
               <figcaption class="section_figcaption">
-                Technocrack <br /><span class="section_figcaption_span">
-                  Strona internetowa</span
-                >
+                <p>Technocrack</p>
+                <span class="section_figcaption_span"> Strona internetowa</span>
               </figcaption>
             </figure>
           </li>
@@ -176,24 +190,26 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a class="webstudio" href="#"
-        ><span class="web">Web</span
-        ><span class="studio_footer">Studio</span></a
-      >
-      <address>
-        <ul class="address_ul">
-          <li class="address_li_1">m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li>
-            <a class="footer_a" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a class="footer_a" href="telto:+48111111111">+48 111 111 111</a>
-          </li>
-        </ul>
-      </address>
-    </footer>
+    <footer class="footer-container container">
+        <!-- w stopce nie moze byc w tym momencie uzyty kolor : #FFFFFF; ani : #FFFFFF99;-->
+        <a class="footer webstudio" href="#"
+          ><span class="web">Web</span
+          ><span class="studio_footer">Studio</span></a
+        >
+        <address>
+          <ul class="address_ul">
+            <li class="address_li_1">m. Warszawa, Aleje Jerozolimskie 21</li>
+            <li>
+              <a class="footer_a" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="footer_a" href="telto:+48111111111">+48 111 111 111</a>
+            </li>
+          </ul>
+        </address>
+      </footer>
+    </div>
   </body>
 </html>

@@ -36,7 +36,8 @@ figure
     margin: 0px;
 }
 header {
-    background-color: #FFFFFF;
+    background-color: red;
+    height: 80px;
 }
 footer {
     background-color: #2F303A;
@@ -51,22 +52,26 @@ main {
 
 .container {
     width: 1200px;
-    display: flex;
+margin: 0 auto;
 }
+
+
 .main_section1.container {
     flex-direction: column;
     align-items: center;
 
 }
+.header {
+    height: 80px;
+}
 
-.header-container {
-    display: flex;
+/*.header-container {
     justify-content: flex-end;
     height: 80px;
         align-items: center;
         border-bottom: 1px solid #ECECEC;
         background-color: #FFFFFF;
-}
+} */
 .header-nav-container {
     display: flex;
 }
@@ -79,10 +84,7 @@ padding: 0px;
 margin: 0px;
 margin-top: 30px;
 }
-.header_nav_li {
-    height: 16px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
     }
 .agencja {
     width: 53px;
@@ -163,6 +165,9 @@ margin-bottom: 50px;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.17;
+    height: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header_nav_ul,
 .main_button_ul,

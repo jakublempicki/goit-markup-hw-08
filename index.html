@@ -11,39 +11,56 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <!-- WALIDATOR DODANY POWYZEJ-->
+
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-      <header class="header-container container">
-        <a class="header webstudio" href="index.html"
-          ><span class="web">Web</span><span class="studio">Studio</span></a
-        >
-        <nav>
-          <ul class="header_nav_ul header-nav-container">
-            <li><a class="header_nav_li agencja" href="#">Agencja</a></li>
-            <li>
-              <a class="header_nav_li portfolio" href="portfolio.html"
-                >Portfolio</a
-              >
-            </li>
-            <li><a class="header_nav_li kontakt" href="#">Kontakt</a></li>
-          </ul>
-        </nav>
+    <header>
+      <div class="container">
+        <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
+        <div class="header">
+          <a class="header webstudio" href="index.html"
+            ><span class="web">Web</span><span class="studio">Studio</span></a
+          >
+          <nav>
+            <ul class="header_nav_ul header-nav-container">
+              <li><a class="header_nav_li agencja" href="#">Agencja</a></li>
+              <li>
+                <a class="header_nav_li portfolio" href="portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li><a class="header_nav_li kontakt" href="#">Kontakt</a></li>
+            </ul>
+          </nav>
 
-        <a class="header_mail" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-        <a class="header_tel" href="tel:+48111111111">+48 111 111 111</a>
-      </header>
-      <main>
-          <section class="main_section1 container">
-            <h1 class="h1-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-            <button class="main_button" type="button">Zamów usługe</button>
-          </section>
+          <a class="header_mail" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <a class="header_tel" href="tel:+48111111111">+48 111 111 111</a>
         </div>
+      </div>
+    </header>
+    <main>
+      <section class="main_section1">
+        <div class="container">
+          <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
 
-        <section class="main_section2 ">
-          <ul class="container">
+          <h1 class="h1-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button class="main_button" type="button">Zamów usługe</button>
+        </div>
+      </section>
+
+      <section class="main_section2">
+        <div class="container">
+          <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
+
+          <ul class="section2">
             <li class="section2-li">
               <h3>LOREM IPSUM</h3>
               <p class="h3_p">
@@ -73,14 +90,15 @@
               </p>
             </li>
           </ul>
-        </section>
+        </div>
+      </section>
 
-        <section class="main_section3">
-<div class="czym">
+      <section class="main_section3">
+        <div class="container">
+          <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
 
-       <h2>Czym się zajmujemy</h2>
-       </div>   
-          <ul class="main_section3 container">
+          <h2>Czym się zajmujemy</h2>
+          <ul class="section3">
             <li>
               <img
                 src="Images/items/img-3.jpg"
@@ -106,12 +124,14 @@
               />
             </li>
           </ul>
-        </section>
-        <section class="main_section4">
-          <div class="nasz">
+        </div>
+      </section>
+      <section class="main_section4">
+        <div class="container">
+          <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
+
           <h2>Nasz zespół</h2>
-          </div>
-          <ul class="main_section4 container">
+          <ul class="main_section4">
             <li>
               <figure>
                 <img
@@ -121,9 +141,8 @@
                   height="260"
                 />
                 <figcaption class="figcaption_main">
-                  John Doe <p><span class="figcaption_span"
-                    >Product Designer</span
-                  ></p>
+                  John Doe
+                  <p><span class="figcaption_span">Product Designer</span></p>
                 </figcaption>
               </figure>
             </li>
@@ -136,9 +155,8 @@
                   height="260"
                 />
                 <figcaption class="figcaption_main">
-                  John Doe <p><span class="figcaption_span"
-                    >Frontend Developer</span
-                  ></p>
+                  John Doe
+                  <p><span class="figcaption_span">Frontend Developer</span></p>
                 </figcaption>
               </figure>
             </li>
@@ -151,7 +169,8 @@
                   height="260"
                 />
                 <figcaption class="figcaption_main">
-                  John Doe <p><span class="figcaption_span">Marketing</span></p>
+                  John Doe
+                  <p><span class="figcaption_span">Marketing</span></p>
                 </figcaption>
               </figure>
             </li>
@@ -164,35 +183,40 @@
                   height="260"
                 />
                 <figcaption class="figcaption_main">
-                  John Doe <p><span class="figcaption_span"
-                    >UI Designer</span
-                  ></p>
+                  John Doe
+                  <p><span class="figcaption_span">UI Designer</span></p>
                 </figcaption>
               </figure>
             </li>
           </ul>
-        </section>
-      </main>
-      <footer class="footer-container container">
-        <!-- w stopce nie moze byc w tym momencie uzyty kolor : #FFFFFF; ani : #FFFFFF99;-->
-        <a class="footer webstudio" href="#"
-          ><span class="web">Web</span
-          ><span class="studio_footer">Studio</span></a
-        >
-        <address>
-          <ul class="address_ul">
-            <li class="address_li_1">m. Warszawa, Aleje Jerozolimskie 21</li>
-            <li>
-              <a class="footer_a" href="mailto:info@example.com"
-                >info@example.com</a
-              >
-            </li>
-            <li>
-              <a class="footer_a" href="telto:+48111111111">+48 111 111 111</a>
-            </li>
-          </ul>
-        </address>
-      </footer>
-    </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-container">
+      <div class="container">
+        <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
+        <div class="footer">
+          <a class="footer webstudio" href="#"
+            ><span class="web">Web</span
+            ><span class="studio_footer">Studio</span></a
+          >
+          <address>
+            <ul class="address_ul">
+              <li class="address_li_1">m. Warszawa, Aleje Jerozolimskie 21</li>
+              <li>
+                <a class="footer_a" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a class="footer_a" href="telto:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

@@ -2,7 +2,6 @@ body {
     color:#212121;
     /* Niewiem jak dodac kolejne czcionki alternatywne dla roboto, ale dodana jest rodzina bezszeryfowa     */
 font-family: 'Roboto',sans-serif;
-line-height: ;
 }
 
 
@@ -46,7 +45,6 @@ ul {
 }
 main {
     background-color: #FFFFFF;
-    ;
     padding-bottom: 94px;
 }
 
@@ -59,6 +57,18 @@ main {
     height: 80px;
     align-items: center;
 }
+.section2 {
+    display: flex;
+}
+.section3 {
+    display: flex;
+    justify-content: space-between;
+}
+.main_section4 {
+    display: flex;
+    justify-content: space-between;
+}
+
 .section-nav {
     display: flex;
     justify-content: center;
@@ -120,18 +130,19 @@ margin-top: 30px;
 
 .h1-title {
     width: 696px;
-    margin-top: 200px;
     text-align: center;
     width: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
 }
 .main_section3 h2 {
     text-align: center;
     margin-top: 94px;
     margin-bottom: 50px;
 }
-.main_section3.container {
-    justify-content: space-between;
-}
+
 .main_section4 h2 {
     text-align: center;
 margin-top: 94px;
@@ -144,15 +155,10 @@ margin-bottom: 50px;
   0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.main_section4.container {
-    justify-content: space-between;
-}
 
 
-.czym,
-.nasz {
-    width: 1200px;
-}
+
+
 
 
 
@@ -299,6 +305,9 @@ h1 {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
             border: none;
+margin-top: 30px;
+display: block;
+margin: auto;
 margin-top: 30px;
 }
 

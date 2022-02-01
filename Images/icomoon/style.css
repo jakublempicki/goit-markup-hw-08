@@ -1,0 +1,64 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-envelope {
+  width: 1.3330078125em;
+}
+
+.icon-LISTKI2-2 {
+  width: 1.3408203125em;
+}
+
+.icon-group {
+  width: 2.0234375em;
+}
+
+.icon-COMPANY {
+  width: 2.0888671875em;
+}
+
+.icon-LISTKI {
+  width: 1.0712890625em;
+}
+
+.icon-WACHLARZE-2 {
+  width: 1.142578125em;
+}
+
+.icon-KWADRATROJKAT {
+  width: 0.8544921875em;
+}
+
+.icon-ZEGAR-1 {
+  width: 0.9716796875em;
+}
+
+.icon-LAPTOP-2 {
+  width: 1.2958984375em;
+}
+
+.icon-ASTRONAUTA-3 {
+  width: 0.9013671875em;
+}
+
+.icon-SATELITA-4 {
+  width: 0.9423828125em;
+}
+
+.icon-TELEFON {
+  width: 0.625em;
+}

@@ -56,6 +56,8 @@ main {
     display: flex;
     height: 80px;
     align-items: center;
+    border-bottom: 1px solid #ECECEC;
+    ;
 }
 .section2 {
     display: flex;
@@ -67,6 +69,7 @@ main {
 .main_section4 {
     display: flex;
     justify-content: space-between;
+    background-color: #F5F4FA;
 }
 
 .section-nav {
@@ -345,14 +348,14 @@ font-weight: 700;
 color:#FFFFFF;
 font-size: 14px;
 font-weight: 400;
-font-style: normal;
+        font-family: roboto;
+
 line-height: 1.71;
 margin-top: 20px;
 }
 
 .footer_a {
-color: #FFFFFF99;
-
+color: rgba(255, 255, 255, 0.6);
 font-size: 14px;
 font-weight: 400;
 font-style: normal;

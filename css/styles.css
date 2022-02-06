@@ -140,7 +140,7 @@ border: 1px solid #EEEEEE;
    background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-     url(/Images/background.jpg); 
+     url(./Images/background.jpg); 
     height: 600px;
     background-size: cover;
 background-repeat: no-repeat;}

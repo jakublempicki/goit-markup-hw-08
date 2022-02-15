@@ -138,6 +138,11 @@ header {
 .header-nav-container {
     display: flex;
 }
+.section_ul li {
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .section_ul.container {
     flex-wrap: wrap;
@@ -157,18 +162,24 @@ header {
         1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-}
 
-.header_nav_li {
-    height: 16px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
+
 
 .agencja {
     width: 53px;
-    margin-right: 46px;
     margin-left: 93px;
+}
+
+.agencja::after {
+    content: "";
+    width: 53px;
+    height: 4px;
+    background-color: #2196F3;
+    display: inline-block;
+    position: relative;
+      top: 36px;
+      right: 53px;
+      border-radius: 2px;
 }
 
 .portfolio {
@@ -178,6 +189,45 @@ header {
 
 .kontakt {
     width: 51px;
+}
+.header_mail,
+.header_tel {
+    color: #757575;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    fill: #757575;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+.header_nav_li:hover,
+.header_nav_li:focus,
+.header_mail:hover,
+.header_mail:focus,
+.header_tel:hover,
+.header_tel:focus {
+    fill: #2196F3;
+    color: #2196F3;
+}
+.header_nav_li {
+    color: #212121;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    height: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main_section1 {
@@ -267,13 +317,7 @@ header {
 
 
 
-.header_nav_li {
-    color: #212121;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.17;
-}
+
 
 .header_nav_ul,
 .main_button_ul,
@@ -301,29 +345,7 @@ header {
 
 
 
-.header_mail,
-.header_tel {
-    color: #757575;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
-    fill: #757575;
-}
 
-
-
-.header_nav_li:hover,
-.header_nav_li:focus,
-.header_mail:hover,
-.header_mail:focus,
-.header_tel:hover,
-.header_tel:focus {
-    fill: #2196F3;
-    color: #2196F3;
-}
 
 .icon-envelope,
 .icon-phone {
@@ -388,6 +410,10 @@ h1 {
     border-radius: 4px;
     fill: #AFB1B8;
     border: 1px solid #AFB1B8;
+     transition-property: fill, border;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+     transition-duration: 250ms;
+
 }
 
 .klienci svg:hover {
@@ -411,6 +437,9 @@ h1 {
     margin-top: 94px;
     margin-bottom: 50px;
     background-color: #F5F4FA;
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 800ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio_buttons:hover {
@@ -532,6 +561,9 @@ h1 {
     text-decoration: none;
     margin-top: 9px;
 }
+.footer_email {
+    text-decoration: underline;
+}
 
 .Nasz-zespol-ikony {
     display: flex;
@@ -557,20 +589,28 @@ h1 {
     display: inline-block;
     border-radius: 50%;
     fill: #757575;
+        transition-property: background-color;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
+
 }
 
 .linki svg {
     margin-top: 12px;
     margin-bottom: 12px;
+    transition-duration: 250ms;
+
+   
+    
 }
 
 .linki svg:hover {
-    fill: white;
+    fill: #EEEEEE;
 }
 
 .linki a:hover {
     background-color: #2196F3;
-    fill: white;
+    fill: #EEEEEE;
 }
 
 
@@ -600,9 +640,12 @@ h1 {
     display: inline-block;
     border-radius: 50%;
     fill: white;
-
     background-color: rgba(255, 255, 255, 0.1);
     margin-right: 10px;
+     transition-property: background-color;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+     transition-duration: 250ms;
+
 }
 
 .social-end a:hover {
@@ -612,7 +655,40 @@ h1 {
 
 
 .social-end svg {
-
     margin: 12px
 }
 
+.backdrop {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 528px;
+height: 581px;
+background-color: #FFFFFF;
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+.close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 50%;
+    cursor: pointer;
+}

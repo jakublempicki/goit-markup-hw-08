@@ -60,7 +60,7 @@
           <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
 
           <h1 class="h1-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="main_button" type="button">Zamów usługe</button>
+          <button class="main_button" type="button" data-modal-open>Zamów usługe</button>
         </div>
       </section>
 
@@ -428,7 +428,7 @@
             <ul class="address_ul">
               <li class="address_li_1">m. Warszawa, Aleje Jerozolimskie 21</li>
               <li>
-                <a class="footer_a" href="mailto:info@example.com"
+                <a class="footer_a footer_email" href="mailto:info@example.com"
                   >info@example.com</a
                 >
               </li>
@@ -478,6 +478,14 @@
         </div>
       </div>
     </footer>
-
+     <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+      <button type="button" class="close-btn" data-modal-close>X</button>
+      </div>
+      <svg class="icon-close">
+        <use href=""></use>
+      </svg>
+    </div>
+<script src="./js/modal.js"></script>
   </body>
 </html>

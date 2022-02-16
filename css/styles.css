@@ -170,21 +170,38 @@ header {
     margin-left: 93px;
 }
 
-.agencja::after {
-    content: "";
-    width: 53px;
-    height: 4px;
-    background-color: #2196F3;
-    display: inline-block;
-    position: relative;
+
+
+.agencja_index::after{
+      content: "";
+      width: 53px;
+      height: 4px;
+      background-color: #2196F3;
+      display: inline-block;
+      position: relative;
       top: 36px;
       right: 53px;
       border-radius: 2px;
 }
+.portfolio_portfolio::after {
+          content: "";
+          width: 53px;
+          height: 4px;
+          background-color: #2196F3;
+          display: inline-block;
+          position: relative;
+          top: 36px;
+          right: 53px;
+          border-radius: 2px;
+}
+.portfolio_portfolio {
+      margin-left: 53px;
+      margin-right: 53px;
+
+}
 
 .portfolio {
     width: 58px;
-    margin-right: 46px;
 }
 
 .kontakt {

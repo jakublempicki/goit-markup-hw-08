@@ -138,11 +138,16 @@ header {
 .header-nav-container {
     display: flex;
 }
-.section_ul li {
+.figure {
+    position: relative;
+        overflow: hidden;
+
     transition-property: box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
+.
 
 .section_ul.container {
     flex-wrap: wrap;
@@ -160,9 +165,35 @@ header {
     box-shadow: 0px 1px 1px rgba(161, 131, 131, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
+      
 }
-
-
+.section_ul li:hover .overlay {
+    transform: translateY(0);
+    visibility: visible;
+}
+.overlay {
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 150, 243, 0.9);
+    transform: translateY(100%);
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.overlay p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 28px;
+    display: inline-block;
+    width: 301px;
+    height: 196px;
+display: flex;
+justify-content: center;
+margin: 49px 45px 49px 24px;
+}
 
 
 .agencja {
@@ -196,12 +227,13 @@ header {
 }
 .portfolio_portfolio {
       margin-left: 53px;
-      margin-right: 53px;
+   
 
 }
 
 .portfolio {
     width: 58px;
+    margin-right: 53px;
 }
 
 .kontakt {
@@ -516,6 +548,8 @@ h1 {
     display: block;
     margin: auto;
     margin-top: 30px;
+    transition:  500ms linear;
+    animation-duration: 500ms;
 }
 
 .section_figcaption {
@@ -691,7 +725,19 @@ transition-duration: 250ms;
     width: 528px;
 height: 581px;
 background-color: #FFFFFF;
+transition-property: scale(1);
+animation: animateModal 1000ms 1000ms;
 }
+
+@keyframes animateModal {
+    0% {
+    transform: translate(-50%, -50%) scale(0);
+    }
+     100% {
+transform:  translate(-50%, -50%) scale(1);
+        }
+
+    }
 
 .is-hidden {
     opacity: 0;

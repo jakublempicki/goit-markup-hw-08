@@ -428,7 +428,7 @@ margin: 49px 45px 49px 24px;
     font-weight: 700;
     width: 145px;
     height: 31px;
-    margin-top: 50px;
+    margin-top: 60px;
     display: inline-block;
 }
 
@@ -667,7 +667,7 @@ transition-duration: 250ms;
 
 .welcome {
     display: flex;
-}
+align-items: baseline;}
 
 .end {
     margin-left: 70px;
@@ -761,4 +761,245 @@ transform:  translate(-50%, -50%) scale(1);
     width: 11px;
     height: 11px;
     margin: 8.5px;
+}
+
+.newsletter span {
+    
+    color: #FFFFFF;
+}
+.newsletter {
+    margin-left: 50px;
+}
+.email-newsletter {
+    width: 358px;
+    height: 50px;
+    background-color: #2F303A;
+padding: 0;
+border: 1px solid;
+border-color: rgba(255, 255, 255, 0.3);
+border-radius: 4px;
+ box-shadow: 0px 4px 4px 0px #00000026;
+ color: #EEEEEE;
+}
+.email-newsletter::placeholder {
+padding-left: 16px;    
+}
+.newsletter-button {
+    width: 200px;
+    height: 50px;
+    background-color: #2196F3;
+    border-radius: 5px;
+    margin-left: 12px;
+    color: #FFFFFF;
+    padding: 0;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.flyletter {
+    width: 24px;
+        margin-left: 24px;
+
+}
+.newsletter-button span {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    width: 82px;
+    display: inline;
+    line-height: 30px;
+
+}
+.newsletter-button:hover {
+    cursor: pointer;
+}
+
+/*                                           MODAL       */   
+
+.modal label {
+    position: absolute;
+}
+.modal p {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-size: 20px;
+    line-height: 23,44px;
+    color: #212121;
+    font-weight: 700;
+    width: 448px;
+    display: block;
+text-align: center;
+}
+
+
+
+.Feedback {
+    top: 309px;
+        margin-left: 40px;
+
+}
+textarea {
+        width: 448px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+
+}
+.Feedback-textarea {
+    margin-top: 4px;
+    resize: none;
+}
+.Feedback::placeholder {
+    color: rgba(117, 117, 117, 0.5) ;
+}
+.checkbox {
+    top: 450px;
+        left: 54px;
+    position: absolute;
+    width: 16px;
+    height: 15px;
+}
+.checkbox input {
+     width: 16px;
+     height: 15px;
+}
+.checkbox a {
+color: #2196F3;
+text-decoration: underline;
+}
+.checkbox a:hover {
+cursor: default;
+
+}
+
+.checkbox p {
+    top: -4px;
+    left: 20px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+
+.column-modal {
+    width: 448px;
+    height: 40px;
+    position: relative;
+    margin-top: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+.column-modal input {
+    padding-left: 42px;
+    width: 406px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    width: 100%;
+}
+.column-modal input:focus {
+
+}
+.column-modal input:focus {
+        border: 1px solid red;
+
+}
+.column-modal input {
+            border: 1px solid red;
+
+}
+
+.Imie {
+    top: 75px;
+    display: block;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+.Telefon {
+    top: 160px;
+    margin-left: 40px;
+}
+.email {
+    margin-left: 40px;
+    margin-top: 10px;
+    display: block;
+    top: 221px;
+}
+
+.icon-person {
+    position: absolute;
+    top: 35%;
+    left: 15px;
+}
+.icon-tel {
+    position: absolute;
+    top: 35%;
+    left: 15px;
+}
+.icon-letter {
+ position: absolute;
+ top: 45%;
+ left: 15px;
+}
+
+.submit-modal {
+    width: 200px;
+    height: 50px;
+    background-color: #2196F3;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    top: 500px;
+    left: 164px;
+    position: absolute;
+    color: #EEEEEE;
+
+}
+
+
+
+
+
+/*
+.imie-modal input:focus {
+    border: 1px solid #2196F3;
+    fill: red;
+
+}
+.Telefon {
+    margin-left: 40px;
+    margin-top: 10px;
+    top: 153px;
+    display: block;
+}
+
+.Telefon input {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    width: 448px;
+    height: 40px;
+    margin-right: 40px;
+    margin-top: 4px;
+}
+.column-modal :nth-child(1) {
+    margin-top: 150px;
 }

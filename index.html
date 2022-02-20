@@ -420,12 +420,12 @@
       <div class="container">
         <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
         <div class="footer">
-          <a class="footer webstudio" href="#"
+                    <div class="welcome">
+  <ul class="address_ul">
+    <li>    <a class="footer webstudio" href="#"
             ><span class="web">Web</span
             ><span class="studio_footer">Studio</span></a
-          >
-          <div class="welcome">
-            <ul class="address_ul">
+          ></li>
               <li class="address_li_1">m. Warszawa, Aleje Jerozolimskie 21</li>
               <li>
                 <a class="footer_a footer_email" href="mailto:info@example.com"
@@ -439,6 +439,8 @@
               </li>
             </ul>
             <ul class="end">
+      
+          
               <li> <span>DOŁĄCZ DO NAS</span></li>
               <li>
                 <ul class="social-end">
@@ -472,20 +474,79 @@
                 </a>
               </li>
                 </ul>
-              </li>
             </ul>
           </address>
+                                  <div class="newsletter">
+                                    <span>Zapisz się do newslettera</span>
+                                    <form action="">
+                                      <div class="newsletter-flex">
+                                      <label for="email-newsletter"></label>
+                                      <input type="email" class="email-newsletter" id="email-newsletter" placeholder="E-mail">
+                                      <button class="newsletter-button" type="submit">
+                                       <span>Zapisz się</span> 
+                                            <svg class="flyletter" height="24px"> 
+  <use href="./Images/symbol-defs.svg#icon-flyletter"></use>
+</svg>
+</button>
+                                  
+
+
+                                      </button>
+                                      </div>
+                                    </form>
+                                  </div>
+
         </div>
+
       </div>
     </footer>
      <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
+     <div class="modal">
       <button type="button" class="close-btn" data-modal-close>
          <svg class="icon-close">
         <use href="./Images/symbol-defs.svg#icon-x"></use>
       </svg>
       </button>
+      <p>Zostaw swoje dane w formularzu ponizej</p>
+      <form>
+          <label class="Imie">Imie
+            <div class="column-modal">
+                    <input type="text">
+               <svg class="icon-person" width="12px" height="12px">
+              <use href="./Images/symbol-defs.svg#icon-person" ></use>
+            </svg>
+      
+           
+            </div>
+          </label>
+          <label class="Telefon">Telefon
+                        <div class="column-modal">
+          <input type="number">
+            <svg class="icon-tel" width="13px" height="13px">
+              <use href="./Images/symbol-defs.svg#icon-tel" ></use>
+            </svg>
+                        </div>
+          </label>
+             <label class="email">Email
+                                       <div class="column-modal">
+          <input type="email">
+           <svg class="icon-letter" width="15px" height="12px">
+              <use href="./Images/symbol-defs.svg#icon-letter" ></use>
+            </svg>
+                                       </div>
+             </label>
+          <label class="Feedback">  Komentarz
+
+          <textarea class="Feedback-textarea" name="Feedback" id="Feedback"  rows="5" placeholder="Wprowadź tekst"></textarea>
+          </label>
+          <label class="checkbox">
+            <input type="checkbox">
+            <p>Oświadczam iż akceptuję <a href="#">Regulamin</a>  i <a href="#">Politykę Prywatności.</a> </p>
+          </label>
+          <button class="submit-modal"  >Wyślij</button>
+      </form>
       </div>
+
      
     </div>
 <script src="./js/modal.js"></script>

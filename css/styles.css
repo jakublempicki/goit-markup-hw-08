@@ -914,17 +914,7 @@ cursor: default;
     border: 1px solid rgba(33, 33, 33, 0.2);
     width: 100%;
 }
-.column-modal input:focus {
 
-}
-.column-modal input:focus {
-        border: 1px solid red;
-
-}
-.column-modal input {
-            border: 1px solid red;
-
-}
 
 .Imie {
     top: 75px;

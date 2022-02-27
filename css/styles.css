@@ -121,6 +121,7 @@ header {
 .section-images li {
     margin-bottom: 30px;
     background-color: #FFFFFF;
+border: 1px solid #EEEEEE
 }
 
 .footer {
@@ -528,6 +529,7 @@ h1 {
 
 .section_figcaption {
     margin-top: 20px;
+    margin-left: 24px;
 }
 
 .section_figcaption_span {

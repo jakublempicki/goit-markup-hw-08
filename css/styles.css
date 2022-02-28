@@ -1057,15 +1057,14 @@ label {
     border: 1px solid #212121;
     border-radius: 1px;
     display: inline-block;
-    margin-right: 7px;
-      
+    margin-right: 7px;      
 }
 .checkbox-input:checked +  p::before {
         background-color: #2196F3;
     border: none;
-    background-image: url(/Images/chekcbox.svg);
     background-repeat: no-repeat;
     background-position: center;
+        background-image: url("/Images/chekcbox.svg");
 }
 
 

@@ -1064,7 +1064,7 @@ label {
     border: none;
     background-repeat: no-repeat;
     background-position: center;
-        background-image: url("/Images/chekcbox.svg");
+        background-image: url("./Images/chekcbox.svg");
 }
 
 

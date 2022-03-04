@@ -23,22 +23,24 @@
       <div class="container">
         <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
         <div class="header">
-          <a class="header webstudio" href="index.html"
-            ><span class="web">Web</span><span class="studio">Studio</span></a
+          <a class="logo" href="index.html"
+            ><span class="logo__web">Web</span><span class="logo__studio">Studio</span></a
           >
           <nav>
-            <ul class="header_nav_ul header-nav-container">
-              <li><a class="header_nav_li agencja" href="./index.html">Agencja</a></li>
+                        <!--        SASS ZROBIONY DO TEGO PUNKTU-->
+
+            <ul class="header-nav">
+              <li><a class="header-nav__item" href="./index.html">Agencja</a></li>
               <li>
-                <a class="header_nav_li  portfolio_portfolio" href="portfolio.html"
+                <a class="header-nav__item  header-nav__item_after header-nav__item_margin-left " href="portfolio.html"
                   >Portfolio</a
                 >
               </li>
-              <li><a class="header_nav_li kontakt" href="#">Kontakt</a></li>
+              <li><a class="header-nav__item" href="#">Kontakt</a></li>
             </ul>
           </nav>
-           <a class="header_mail" href="mailto:info@devstudio.com">
-                           <svg class="icon-header icon-envelope" width="16px" height="12px">
+           <a class="header-mail" href="mailto:info@devstudio.com">
+                           <svg class="header-mail__icon" width="16px" height="12px">
                              <use href="./Images/icons.svg#icon-envelope"></use></svg>
 
            <span> info@devstudio.com</span></a>
@@ -46,18 +48,21 @@
      
          
          
-          <a class="header_tel" href="tel:+48111111111">
-             <svg class="icon-header icon-phone" width="16px" height="20px">
+          <a class="header-tel" href="tel:+48111111111">
+             <svg class="header-mail__icon" width="16px" height="20px">
             <use href="./Images/icons.svg#icon-smartphone">
           <span>+48 111 111 111</span></a>
         </div>
       </div>
     </header>
     <main>
-      <section class="portfolio_section1">
+                  <!--        SASS ZROBIONY DO TEGO PUNKTU-->
+                                <!--       BEM zrobiony do tego punktu-->
+
+      <section>
         <div class="container">
           <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
- <ul class="main_button_ul section-nav">
+ <ul class="main-buttons-list section-nav">
             <li>
               <button class="portfolio_buttons Wszystkie" type="button">
                 Wszystkie
@@ -280,7 +285,7 @@
                     <div class="welcome">
   <ul class="address_ul">
     <li>    <a class="footer webstudio" href="#"
-            ><span class="web">Web</span
+            ><span class="logo__web">Web</span
             ><span class="studio_footer">Studio</span></a
           ></li>
               <li class="address_li_1">m. Warszawa, Aleje Jerozolimskie 21</li>

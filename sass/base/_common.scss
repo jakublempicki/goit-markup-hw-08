@@ -1,0 +1,51 @@
+body {
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 0.85;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+}
+
+h1,
+h2,
+h3,
+ul,
+p,
+section,
+figure {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+footer {
+    background-color: #2F303A;
+}
+
+header {
+    border-bottom: 1px solid #ECECEC;
+        background-color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+main {
+    padding-bottom: 94px;
+}
+.header-nav,
+.main_button_ul,
+.address_ul {
+    list-style-type: none;
+}

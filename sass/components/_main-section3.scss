@@ -1,0 +1,42 @@
+.main-section3 h2 {
+    text-align: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+
+.main-section3 {
+    margin-bottom: 94px;
+}
+
+.section3-list {
+    display: flex;
+    justify-content: space-between;
+    & li {
+            position: relative;
+    }
+    & div {
+  position: absolute;
+  top: 224px;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  text-align: center;
+  color: #FFFFFF;
+    }
+    & p {
+          margin-top: 27px;
+          margin-bottom: 27px;
+          font-weight: 700px;
+          font-size: 14px;
+          line-height: 16.41px;
+    }
+}
+
+
+
+
+
+
+
+
+

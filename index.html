@@ -24,22 +24,23 @@
       <div class="container">
         <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
         <div class="header">
-          <a class="header webstudio" href="index.html"
-            ><span class="web">Web</span><span class="studio">Studio</span></a
+          <a class="logo" href="index.html"
+            ><span class="logo__web">Web</span><span class="logo__studio">Studio</span></a
           >
           <nav>
-            <ul class="header_nav_ul header-nav-container">
-              <li><a class="header_nav_li agencja agencja_index" href="#">Agencja</a></li>
+            <ul class="header-nav">
+              <li><a class="header-nav__item  header-nav__item_after" href="#">Agencja</a></li>
               <li>
-                <a class="header_nav_li portfolio" href="portfolio.html"
+                <a class="header-nav__item header-nav__item_margin-right" href="portfolio.html"
                   >Portfolio</a
                 >
               </li>
-              <li><a class="header_nav_li kontakt" href="#">Kontakt</a></li>
+              <li><a class="header-nav__item" href="#">Kontakt</a></li>
             </ul>
           </nav>
-           <a class="header_mail" href="mailto:info@devstudio.com">
-                           <svg class="icon-header icon-envelope" width="16px" height="12px">
+
+           <a class="header-mail" href="mailto:info@devstudio.com">
+                           <svg class="header-mail__icon" width="16px" height="12px">
                              <use href="./Images/icons.svg#icon-envelope"></use></svg>
 
            <span> info@devstudio.com</span></a>
@@ -47,24 +48,27 @@
      
          
          
-          <a class="header_tel" href="tel:+48111111111">
-             <svg class="icon-header icon-phone" width="16px" height="20px">
+          <a class="header-tel" href="tel:+48111111111">
+             <svg class="header-mail__icon" width="16px" height="20px">
             <use href="./Images/icons.svg#icon-smartphone">
           <span>+48 111 111 111</span></a>
         </div>
       </div>
     </header>
     <main>
-      <section class="main_section1">
+     
+
+      <section class="main-section1">
         <div class="container">
           <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
 
           <h1 class="h1-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="main_button" type="button" data-modal-open>Zamów usługe</button>
+          <button class="main-button" type="button" data-modal-open>Zamów usługe</button>
         </div>
       </section>
+               
 
-      <section class="main_section2">
+      <section class="main-section2">
         <div class="container">
           <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
           <ul class="section2-icons">
@@ -73,45 +77,45 @@
                 <use  href="Images/icons.svg#icon-antenna"></use>
               </svg>
               <li>
-              <svg width="270px" height="120px">
+              <svg>
                 <use href="Images/icons.svg#icon-clock" ></use></svg>
             </li>
             <li>
-              <svg width="270px" height="120px">
+              <svg>
                 <use href="Images/icons.svg#icon-diagram"></use>
               </svg>
             </li>
             <li>
-              <svg width="270px" height="120px">
+              <svg>
                 <use  href="Images/icons.svg#icon-astronaut"></use>
               </svg>
             </li>
           </ul>
-          <ul class="section2">
-            <li class="section2-li">
+          <ul class="section2-descriptions">
+            <li>
               <h3>LOREM IPSUM</h3>
-              <p class="h3_p">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="section2-li">
+            <li>
               <h3>LOREM IPSUM</h3>
-              <p class="h3_p">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="section2-li">
+            <li>
               <h3>LOREM IPSUM</h3>
-              <p class="h3_p">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="section2-li">
+            <li>
               <h3>LOREM IPSUM</h3>
-              <p class="h3_p">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
@@ -120,13 +124,14 @@
         </div>
       </section>
 <!--                                CZYM SIE ZAJMUJEMY                   -->
+ 
 
-      <section class="main_section3">
+      <section class="main-section3">
         <div class="container">
           <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
 
           <h2>Czym się zajmujemy</h2>
-          <ul class="section3">
+          <ul class="section3-list">
             <li>
               <img
                 src="Images/items/img-3.jpg"
@@ -134,41 +139,43 @@
                 width="370"
                 height="294"
               />
-              <div class="section3-div">
+              <div class="section3-list__title">
                 <p>APLIKACJE KOMPUTEROWE</p>
               </div>
             </li>
-            <li class="section3_li2">
+            <li>
               <img
                 src="Images/items/img-1.jpg"
                 alt="telephone"
                 width="370"
                 height="294"
               />
-                <div class="section3-div">
+                <div class="section3-list__title">
                 <p>APLIKACJE MOBILNE</p>
               </div>
             </li>
-            <li class="section3_li3">
+            <li>
               <img
                 src="Images/items/img-2.jpg"
                 alt="tablet2"
                 width="370"
                 height="294"
               />
-                <div class="section3-div">
+                <div class="section3-list__title">
                 <p>ROZWIĄZANIA GRAFICZNE</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
-      <section class="main_section4">
+
+
+      <section class="main-section4">
         <div class="container">
           <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
 
           <h2>Nasz zespół</h2>
-          <ul class="main_section4">
+          <ul class="section4-list">
             <li>
               <figure>
                 <img
@@ -177,9 +184,9 @@
                   width="270"
                   height="260"
                 />
-                <figcaption class="figcaption_main">
+                <figcaption class="section4-list__figcaption">
                   John Doe
-                  <p><span class="figcaption_span">Product Designer</span></p>
+                  <p><span class="section4-list__figcaption-span">Product Designer</span></p>
                     <ul class="linki">
                       <li>
                         <a href="#">
@@ -224,9 +231,9 @@
                   width="270"
                   height="260"
                 />
-                <figcaption class="figcaption_main">
+                <figcaption class="section4-list__figcaption">
                   John Doe
-                  <p><span class="figcaption_span">Frontend Developer</span></p>
+                  <p><span class="section4-list__figcaption-span">Frontend Developer</span></p>
                     <ul class="linki">
                       <li>
                         <a href="#">
@@ -268,9 +275,9 @@
                   width="270"
                   height="260"
                 />
-                <figcaption class="figcaption_main">
+                <figcaption class="section4-list__figcaption">
                   John Doe
-                  <p><span class="figcaption_span">Marketing</span></p>
+                  <p><span class="section4-list__figcaption-span">Marketing</span></p>
            <ul class="linki">
                       <li>
                         <a href="#">
@@ -312,9 +319,9 @@
                   width="270"
                   height="260"
                 />
-                <figcaption class="figcaption_main">
+                <figcaption class="section4-list__figcaption">
                   John Doe
-                  <p><span class="figcaption_span">UI Designer</span></p>
+                  <p><span class="section4-list__figcaption-span">UI Designer</span></p>
             <ul class="linki">
                       <li>
                         <a href="#">
@@ -351,7 +358,9 @@
           </ul>
         </div>
       </section>
-      <section class="main_section5">
+               <!--        SASS ZROBIONY DO TEGO PUNKTU-->
+                          <!--       BEM zrobiony do tego punktu razem z main-section-->
+      <section class="main-section5">
         <div class="container">
         <h2>Nasi klienci</h2>
         <ul class="klienci">
@@ -423,7 +432,7 @@
                     <div class="welcome">
   <ul class="address_ul">
     <li>    <a class="footer webstudio" href="#"
-            ><span class="web">Web</span
+            ><span class="logo__web">Web</span
             ><span class="studio_footer">Studio</span></a
           ></li>
               <li class="address_li_1">m. Warszawa, Aleje Jerozolimskie 21</li>

@@ -1,0 +1,42 @@
+.main-section1 {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../Images/background.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &.container {
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+.h1-title {
+    width: 696px;
+    text-align: center;
+    width: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+}
+.main-button {
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    cursor: pointer;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    margin-top: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    transition: 500ms linear;
+    animation-duration: 500ms;
+}

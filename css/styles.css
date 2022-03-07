@@ -44,7 +44,7 @@ ul {
 main {
     padding-bottom: 94px;
 }
-.section2-descriptions p {
+.four-icons__descriptions p {
     font-size: 14px;
     font-weight: 400;
     color: #757575;
@@ -64,30 +64,26 @@ main {
 
 
 
-.section2 {
-    display: flex;
-    margin-top: 30px;
-    justify-content: space-around;
-}
-.section2-descriptions li {
+
+.four-icons__descriptions li {
     width: 270px;
 }
-.section2-descriptions {
+.four-icons__descriptions {
     margin-top: 30px;
         display: flex;
             justify-content: space-around;
 }
 
-.section3-list {
+.what-wedo__list {
     display: flex;
     justify-content: space-between;
 }
 
-.section3-list li {
+.what-wedo__list li {
     position: relative;
 }
 
-.section3-list div {
+.what-wedo__list div {
     position: absolute;
     top: 224px;
     width: 370px;
@@ -97,7 +93,7 @@ main {
     color: #FFFFFF;
 }
 
-.section3-list__title p {
+.what-wedo__list p {
     margin-top: 27px;
     margin-bottom: 27px;
     font-weight: 700px;
@@ -105,7 +101,7 @@ main {
     line-height: 16.41px;
 }
 
-.section4-list {
+.our-team__images {
     display: flex;
     justify-content: space-between;
     background-color: #F5F4FA;
@@ -145,11 +141,9 @@ border: 1px solid #EEEEEE
 .figure {
     position: relative;
     overflow: hidden;
-
     transition-property: box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .section_ul.container {
@@ -281,23 +275,23 @@ border: 1px solid #EEEEEE
 }
 
 
-.main-section2 {
+.four-icons {
     margin-top: 94px;
 }
 
-.section2-icons {
+.four-icons__images {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.section2-icons li {
+.four-icons__images li {
     background-color: #F5F4FA;
     width: 270px;
     height: 120px;
 }
 
-.section2-icons svg {
+.four-icons__images svg {
     width: 270px;
     height: 70px;
     margin: auto;
@@ -315,44 +309,44 @@ border: 1px solid #EEEEEE
     padding-top: 200px;
 }
 
-.main-section3 h2 {
+.what-wedo h2 {
     text-align: center;
     margin-top: 94px;
     margin-bottom: 50px;
 }
 
-.main-section3 {
+.what-wedo {
     margin-bottom: 94px;
 }
 
-.main-section4 h2 {
+.our-team h2 {
     text-align: center;
     padding-top: 94px;
     margin-bottom: 50px;
 }
-.main-section4 {
+.our-team {
 background: #F5F4FA;
 }
 
 
-.main-section5 h2 {
+.our-clients h2 {
     text-align: center;
     margin-bottom: 50px;
     padding-top: 94px;
 }
 
-.main-section5 {
+.our-clients {
     padding-bottom: 94px;
 }
 
-.section4-list>li {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-        0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    padding-bottom: 30px;
-    background-color: #FFFFFF;
-}
+.our-team__images>li {
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+            0px 1px 1px rgba(0, 0, 0, 0.14),
+            0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        padding-bottom: 30px;
+        background-color: #FFFFFF;
+    }
 
 
 
@@ -367,8 +361,7 @@ background: #F5F4FA;
 
 
 .header-nav,
-.main-buttons-list,
-.address_ul {
+.main-buttons-list {
     list-style-type: none;
 }
 
@@ -392,40 +385,48 @@ background: #F5F4FA;
 
 .header-mail__icon {
     margin-right: 10px;
+    width: 16px;
+    height: 12px;
 }
 
 .header-tel {
     margin-left: 30px;
 }
-
 .header-mail {
     margin-left: auto;
 }
+.header-tel__icon {
+    width: 16px;
+    height: 20px;
+        margin-right: 10px;
+}
 
-.logo__web {
+
+
+
+.header-logo__web {
+    color: #2196F3;
+}
+.footer-logo__web {
     color: #2196F3;
 }
 
-.logo__studio {
+
+.header-logo__studio--black-theme {
     color: #212121;
+}
+.footer-logo__studio--white-theme {
+    color: #EEEEEE;
 }
 
 .studio_footer {
     color: white;
 }
 
-.footer.webstudio {
-    text-decoration: none;
-    font-family: "Raleway";
-    font-size: 26px;
-    font-weight: 700;
-    width: 145px;
-    height: 31px;
-    margin-top: 60px;
-    display: inline-block;
-}
 
-.logo {
+
+.header-logo,
+.footer-logo {
     text-decoration: none;
     font-family: "Raleway";
     font-size: 26px;
@@ -441,14 +442,14 @@ h1 {
     line-height: 1.36;
 }
 
-.klienci {
+.our-clients__logos {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
-.klienci svg {
+.our-clients__logos svg {
     border-radius: 4px;
     fill: #AFB1B8;
     border: 1px solid #AFB1B8;
@@ -458,10 +459,9 @@ h1 {
 
 }
 
-.klienci svg:hover {
+.our-clients__logos svg:hover {
     fill: #2196F3;
     border: 1px solid #2196F3;
-
 }
 
 
@@ -482,6 +482,7 @@ h1 {
     transition-property: color, background-color, box-shadow;
     transition-duration: 800ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
 }
 
 .portfolio_buttons:hover {
@@ -561,16 +562,8 @@ h1 {
 }
 
 
-.section_figcaption_span {
-    font-size: 16px;
-    font-weight: 400;
-    color: #757575;
-    line-height: 35px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
 
-.section4-list__figcaption {
+.our-team__figcaption {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.17;
@@ -578,38 +571,46 @@ h1 {
     text-align: center;
 }
 
-.section4-list__figcaption-span {
-    color: #757575;
-    font-weight: 400;
-}
 
-.section4-list__figcaption p {
+
+.our-team__figcaption p {
     margin-top: 10px;
 }
+.our-team__figcaption span {
+     color: #757575;
+     font-weight: 400;
+}
 
-.address_li_1 {
+.footer-adres__item1 {
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 400;
     font-family: roboto;
-
     line-height: 1.71;
     margin-top: 20px;
+    margin-bottom: 9px;
 }
 
-.footer_a {
+
+.footer-adres__item2 a{
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
     line-height: 1.71;
     text-decoration: none;
-    margin-top: 9px;
-}
-
-.footer_email {
     text-decoration: underline;
 }
+.footer-adres__item3 a {
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.6);
+   margin-bottom: 60px;
+}
+.footer-adres__item3 {
+margin-top: 9px;
+}
+
+
 
 .Nasz-zespol-ikony {
     display: flex;
@@ -659,28 +660,29 @@ h1 {
 }
 
 
-.welcome {
+.footer-flex {
     display: flex;
     align-items: baseline;
+    padding-top: 60px;
 }
 
-.end {
+.footer-socials {
     margin-left: 70px;
 }
 
-.end span {
+.footer-socials span {
     margin-bottom: 20px;
     color: white;
     font-size: 14px;
     font-weight: 700;
 }
 
-.social-end {
+.footer-socials__icons {
     display: flex;
     margin-top: 20px;
 }
 
-.social-end a {
+.footer-socials__icons a {
     height: 44px;
     width: 44px;
     display: inline-block;
@@ -694,13 +696,13 @@ h1 {
 
 }
 
-.social-end a:hover {
+.footer-socials__icons a:hover {
     background-color: #2196F3;
 }
 
 
 
-.social-end svg {
+.footer-socials__icons svg {
     margin: 12px
 }
 
@@ -754,7 +756,6 @@ h1 {
     border-radius: 50%;
     cursor: pointer;
     padding: 0px;
-
 }
 
 .icon-close {
@@ -763,16 +764,16 @@ h1 {
     margin: 8.5px;
 }
 
-.newsletter span {
+.footer-form span {
 
     color: #FFFFFF;
 }
 
-.newsletter {
+.footer-form {
     margin-left: 50px;
 }
 
-.email-newsletter {
+.footer-form__label {
     width: 358px;
     height: 50px;
     background-color: #2F303A;
@@ -786,7 +787,7 @@ h1 {
 }
 
 
-.newsletter-button {
+.footer-form__button {
     width: 200px;
     height: 50px;
     background-color: #2196F3;
@@ -800,19 +801,18 @@ h1 {
     align-items: center;
 }
 
-.newsletter-flex {
+.footer-form__flex {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-.flyletter {
+.footer-form__icon {
     width: 24px;
     margin-left: 24px;
-
 }
 
-.newsletter-button span {
+.footer-form__button span {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 16px;
@@ -822,7 +822,7 @@ h1 {
 
 }
 
-.newsletter-button:hover {
+.footer-form__button :hover {
     cursor: pointer;
 }
 
@@ -851,13 +851,12 @@ h1 {
 .Feedback {
     top: 309px;
     margin-left: 40px;
-
 }
 
 textarea {
     width: 448px;
     border: 1px solid rgba(33, 33, 33, 0.2);
-
+    height: 120px;
 }
 
 .Feedback-textarea {
@@ -875,7 +874,6 @@ textarea {
 .Feedback-textarea:focus {
     border: 1px solid #2196F3;
     outline: none;
-
 }
 
 .checkbox {
@@ -1029,7 +1027,6 @@ label {
     left: 164px;
     position: absolute;
     color: #EEEEEE;
-
 }
 
 

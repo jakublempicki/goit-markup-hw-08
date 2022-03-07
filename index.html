@@ -17,15 +17,15 @@
     />
     <!-- WALIDATOR DODANY POWYZEJ-->
 
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header>
       <div class="container">
         <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
         <div class="header">
-          <a class="logo" href="index.html"
-            ><span class="logo__web">Web</span><span class="logo__studio">Studio</span></a
+          <a class="footer-logo" href="index.html"
+            ><span class="header-logo__web">Web</span><span class="header-logo__studio--black-theme">Studio</span></a
           >
           <nav>
             <ul class="header-nav">
@@ -40,7 +40,7 @@
           </nav>
 
            <a class="header-mail" href="mailto:info@devstudio.com">
-                           <svg class="header-mail__icon" width="16px" height="12px">
+                           <svg class="header-mail__icon" >
                              <use href="./Images/icons.svg#icon-envelope"></use></svg>
 
            <span> info@devstudio.com</span></a>
@@ -49,7 +49,7 @@
          
          
           <a class="header-tel" href="tel:+48111111111">
-             <svg class="header-mail__icon" width="16px" height="20px">
+             <svg class="header-tel__icon">
             <use href="./Images/icons.svg#icon-smartphone">
           <span>+48 111 111 111</span></a>
         </div>
@@ -68,10 +68,10 @@
       </section>
                
 
-      <section class="main-section2">
+      <section class="four-icons">
         <div class="container">
           <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
-          <ul class="section2-icons">
+          <ul class="four-icons__images">
             <li>
              <svg>
                 <use  href="Images/icons.svg#icon-antenna"></use>
@@ -91,7 +91,7 @@
               </svg>
             </li>
           </ul>
-          <ul class="section2-descriptions">
+          <ul class="four-icons__descriptions">
             <li>
               <h3>LOREM IPSUM</h3>
               <p>
@@ -126,12 +126,12 @@
 <!--                                CZYM SIE ZAJMUJEMY                   -->
  
 
-      <section class="main-section3">
+      <section class="what-wedo">
         <div class="container">
           <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
 
           <h2>Czym się zajmujemy</h2>
-          <ul class="section3-list">
+          <ul class="what-wedo__list">
             <li>
               <img
                 src="Images/items/img-3.jpg"
@@ -170,12 +170,12 @@
       </section>
 
 
-      <section class="main-section4">
+      <section class="our-team">
         <div class="container">
           <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
 
           <h2>Nasz zespół</h2>
-          <ul class="section4-list">
+          <ul class="our-team__images">
             <li>
               <figure>
                 <img
@@ -184,9 +184,9 @@
                   width="270"
                   height="260"
                 />
-                <figcaption class="section4-list__figcaption">
+                <figcaption class="our-team__figcaption">
                   John Doe
-                  <p><span class="section4-list__figcaption-span">Product Designer</span></p>
+                  <p><span>Product Designer</span></p>
                     <ul class="linki">
                       <li>
                         <a href="#">
@@ -231,7 +231,7 @@
                   width="270"
                   height="260"
                 />
-                <figcaption class="section4-list__figcaption">
+                <figcaption class="our-team__figcaption">
                   John Doe
                   <p><span class="section4-list__figcaption-span">Frontend Developer</span></p>
                     <ul class="linki">
@@ -275,7 +275,7 @@
                   width="270"
                   height="260"
                 />
-                <figcaption class="section4-list__figcaption">
+                <figcaption class="our-team__figcaption">
                   John Doe
                   <p><span class="section4-list__figcaption-span">Marketing</span></p>
            <ul class="linki">
@@ -319,7 +319,7 @@
                   width="270"
                   height="260"
                 />
-                <figcaption class="section4-list__figcaption">
+                <figcaption class="our-team__figcaption">
                   John Doe
                   <p><span class="section4-list__figcaption-span">UI Designer</span></p>
             <ul class="linki">
@@ -358,12 +358,11 @@
           </ul>
         </div>
       </section>
-               <!--        SASS ZROBIONY DO TEGO PUNKTU-->
-                          <!--       BEM zrobiony do tego punktu razem z main-section-->
-      <section class="main-section5">
+    
+      <section class="our-clients">
         <div class="container">
         <h2>Nasi klienci</h2>
-        <ul class="klienci">
+        <ul class="our-clients__logos">
           <li>
             <a href="#">
             <svg width="170px" height="92px">
@@ -425,34 +424,36 @@
         </ul>
       </section>
     </main>
-    <footer class="footer-container">
+       
+    <footer>
       <div class="container">
         <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
         <div class="footer">
-                    <div class="welcome">
-  <ul class="address_ul">
-    <li>    <a class="footer webstudio" href="#"
-            ><span class="logo__web">Web</span
-            ><span class="studio_footer">Studio</span></a
+                    <div class="footer-flex">
+  <ul class="footer-adres">
+    <li>    <a class="footer-logo" href="#"
+            ><span class="footer-logo__web">Web</span
+            ><span class="footer-logo__studio--white-theme">Studio</span></a
           ></li>
-              <li class="address_li_1">m. Warszawa, Aleje Jerozolimskie 21</li>
-              <li>
-                <a class="footer_a footer_email" href="mailto:info@example.com"
+              <li class="footer-adres__item1"><p>Warszawa, Aleje Jerozolimskie 21</p></li>
+              <li class="footer-adres__item2">
+                <a href="mailto:info@example.com"
                   >info@example.com</a
                 >
               </li>
-              <li>
-                <a class="footer_a" href="telto:+48111111111"
+              <li class="footer-adres__item3">
+                <a href="telto:+48111111111"
                   >+48 111 111 111</a
                 >
               </li>
             </ul>
-            <ul class="end">
+             
+            <ul class="footer-socials">
       
           
               <li> <span>DOŁĄCZ DO NAS</span></li>
               <li>
-                <ul class="social-end">
+                <ul class="footer-socials__icons">
                   <li>
                         <a href="#">
                           
@@ -485,20 +486,22 @@
                 </ul>
             </ul>
           </address>
-                                  <div class="newsletter">
+   
+                                  <div class="footer-form">
                                     <span>Zapisz się do newslettera</span>
                                     <form action="">
-                                      <div class="newsletter-flex">
-                                      <label for="email-newsletter"></label>
-                                      <input type="email" class="email-newsletter" id="email-newsletter" placeholder="E-mail">
-                                      <button class="newsletter-button" type="submit">
+                                      <div class="footer-form__flex ">
+                                      <label for="footer-form__label"></label>
+                                      <input type="email" class="footer-form__label" id="email-newsletter" placeholder="E-mail">
+                                      <button class="footer-form__button " type="submit">
                                        <span>Zapisz się</span> 
-                                            <svg class="flyletter" height="24px"> 
+                                            <svg class="footer-form__icon" height="24px"> 
   <use href="./Images/symbol-defs.svg#icon-flyletter"></use>
 </svg>
 </button>
                                   
-
+              <!--        SASS ZROBIONY DO TEGO PUNKTU-->
+                          <!--       BEM zrobiony do tego punktu razem z main-section-->
 
                                       </button>
                                       </div>

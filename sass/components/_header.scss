@@ -1,5 +1,9 @@
-
-.logo {
+.header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.header-logo {
     text-decoration: none;
     font-family: "Raleway";
     font-size: 26px;
@@ -9,7 +13,8 @@
     &__web {
         color: #2196F3;
     }
-    &__studio {
+    &__studio--black-theme
+    {
     color: #212121;
 }
 }
@@ -47,7 +52,6 @@
     &__item_margin-right {
     margin-right: 53px;
 }
-
 }
 .header-mail,
 .header-tel {
@@ -71,6 +75,13 @@
     color: #2196F3;
 }
 .header-mail__icon {
+    margin-right: 10px;
+     width: 16px;
+     height: 12px;
+}
+.header-tel__icon {
+    width: 16px;
+    height: 20px;
     margin-right: 10px;
 }
 .header-mail {

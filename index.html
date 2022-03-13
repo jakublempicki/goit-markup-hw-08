@@ -187,11 +187,23 @@
           <ul class="our-team__images">
             <li>
               <figure>
-                <img
-                  src="Images/people/img-a-.jpg"
+                <picture>
+                  <source
+                  srcset="./Images/people/img-a.jpg"
+                  media="(min-width: 1200px)">
+                    <source
+                  srcset="./Images/people/img-354.jpg"
+                  media="(min-width: 768px)">
+                    <source
+                  srcset="./Images/people/img-450.jpg"
+                  media="(min-width: 480px)">
+                  <img src="/Images/people/img-450.jpg" alt="person1">
+                <!-- <img
+                  src="Images/people/img-a-.jpg" 
                   alt="team1"
                 
-                />
+                /> -->
+              </picture>
                 <figcaption class="our-team__figcaption">
                   John Doe
                   <p><span>Product Designer</span></p>
@@ -233,12 +245,22 @@
          
             <li>
               <figure>
+                <picture>
+                    <source
+                  srcset="./Images/people/img-d.jpg"
+                  media="(min-width: 1200px)">
+                    <source
+                  srcset="./Images/people/img-354-1.jpg"
+                  media="(min-width: 768px)">
+                    <source
+                  srcset="./Images/people/img-450-1.jpg"
+                  media="(min-width: 480px)">
                 <img
-                  src="Images/people/img-d.jpg"
+                  src="./Images/people/img-450-1.jpg"
                   alt="team2"
-                  width="270"
-                  height="260"
+                
                 />
+                </picture>
                 <figcaption class="our-team__figcaption">
                   John Doe
                   <p><span class="section4-list__figcaption-span">Frontend Developer</span></p>
@@ -277,12 +299,21 @@
               </figure>
             <li>
               <figure>
+                  <picture>
+                    <source
+                  srcset="./Images/people/img-c.jpg"
+                  media="(min-width: 1200px)">
+                    <source
+                  srcset="./Images/people/img-354-2.jpg"
+                  media="(min-width: 768px)">
+                    <source
+                  srcset="./Images/people/img-450-2.jpg"
+                  media="(min-width: 480px)">
                 <img
-                  src="Images/people/img-c.jpg"
+                  src="./Images/people/img-c.jpg"
                   alt="team3"
-                  width="270"
-                  height="260"
                 />
+                  </picture>
                 <figcaption class="our-team__figcaption">
                   John Doe
                   <p><span class="section4-list__figcaption-span">Marketing</span></p>
@@ -321,12 +352,23 @@
               </figure>
             <li>
               <figure>
+                  <picture>
+                    <source
+                  srcset="./Images/people/img-b.jpg"
+                  media="(min-width: 1200px)">
+                    <source
+                  srcset="./Images/people/img-354-3.jpg"
+                  media="(min-width: 768px)">
+                    <source
+                  srcset=""
+                  media="(min-width: 480px">
                 <img
                   src="Images/people/img-b.jpg"
                   alt="team4"
                   width="270"
                   height="260"
                 />
+                  </picture>
                 <figcaption class="our-team__figcaption">
                   John Doe
                   <p><span class="section4-list__figcaption-span">UI Designer</span></p>
@@ -573,7 +615,7 @@
 
          <div class="backdrop is-hidden" mobile-menu>
 
-         <div class="mobile-modal">
+         <div class="mobile-modal" mobile-menu>
            <svg class="mobile-modal__close-btn" width="20px" height="20px" mobile-menu-close>
              <use href="./Images/symbol-defs.svg#icon-x" width="20px" height="20px"></use>
            </svg>
@@ -594,10 +636,10 @@
           <a class="mobile-modal__tel" href="tel:+48111111111">
 +48111111111 </a>
 <ul class="mobile-modal__socials">
-  <li>Instagram</li>
-  <li>Twitter</li>
-  <li>Facebook</li>
-  <li>Linkedin</li>
+  <li><a href="#">Instagram</a></li>
+  <li><a href="#">Twitter</a></li>
+  <li><a href="#">Facebook</a></li>
+  <li><a href="#">Linkedin</a></li>
 </ul>
            </div>
            </div>

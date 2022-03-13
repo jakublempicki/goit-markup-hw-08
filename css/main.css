@@ -680,7 +680,7 @@ main {
   }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 758px) {
   .our-team__images {
     display: flex;
     flex-wrap: wrap;
@@ -1780,6 +1780,11 @@ label {
   color: #2196F3;
 }
 
+.mobile-modal__socials a {
+  color: #2196F3;
+  text-decoration: none;
+}
+
 .mobile-modal__mail:hover,
 .mobile-modal__mail:focus,
 .mobile-modal__tel:hover,
@@ -1788,5 +1793,11 @@ label {
 .mobile-modal__item:focus {
   fill: #2196F3;
   color: #2196F3;
+}
+
+@media (min-width: 1200px) {
+  .mobile-modal {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */

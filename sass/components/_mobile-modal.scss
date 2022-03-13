@@ -71,6 +71,11 @@ letter-spacing: 0.02em;
 
 color: #2196F3;
 }
+.mobile-modal__socials a {
+    color: #2196F3;
+    text-decoration: none;
+}
+
 .mobile-modal__mail:hover,
 .mobile-modal__mail:focus,
 .mobile-modal__tel:hover,
@@ -81,4 +86,8 @@ color: #2196F3;
     color: #2196F3;
 }
 
-
+@media (min-width: 1200px) {
+.mobile-modal {
+    display: none;
+}
+}

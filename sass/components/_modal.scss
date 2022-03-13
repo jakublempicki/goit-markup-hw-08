@@ -237,3 +237,70 @@ label {
     letter-spacing: 0.01em;
     text-align: left;
 }
+// @media (min-width: 1200px) {
+// .modal {
+//           width: 528px;
+//       position: absolute;
+//       left: 50%;
+//       top: 50%;
+//       transform: translate(-50%, -50%);
+//       height: 581px;
+//       background-color: #FFFFFF;
+//       transition-property: scale(1);
+//       animation: animateModal 1000ms 1000ms;
+//     width: 528px;
+// }
+// }
+@media (min-width: 480px) {
+    .modal {
+        width: 450px;
+    }
+    .column-modal {
+        width: 370px;
+    }
+
+    textarea {
+        width: 370px;
+    }
+    .modal p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .checkbox p{
+        margin-left: 40px;
+    }
+    .submit-modal {
+        display: inline-block;
+left: 125px; }
+}
+@media (min-width: 768px) {
+    .modal p {
+        margin-left: 0px;
+                margin-right: 0px;
+    }
+     .checkbox p {
+         margin-left: 40px;
+     }
+    }
+
+@media (min-width: 1200px) {
+    .modal {
+        width: 528px;
+    }
+
+    .column-modal {
+        width: 450px;
+    }
+
+    textarea {
+        width: 450px;
+    }
+    .modal p {
+          font-size: 14px;
+          line-height: 24px;
+        width: 448px;
+    }
+    .submit-modal {
+            left: 164px;
+    }
+}

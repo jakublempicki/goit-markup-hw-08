@@ -27,17 +27,24 @@
           <a class="header-logo" href="index.html"
             ><span class="header-logo__web">Web</span><span class="header-logo__studio--black-theme">Studio</span></a
           >
+          <a href="#" class="mobile-menu" mobile-menu-open="">
+
+                                         <svg width="24px" height="60px"><use href="./Images/symbol-defs-hamburger.svg#icon-hamburger" id="hamburger"></use></svg>
+</a>
+</button>
           <nav>
             <ul class="header-nav">
-              <li><a class="header-nav__item  header-nav__item_after" href="#">Agencja</a></li>
+              <li><a class="header-nav__item  header-nav__item_after" href="index.html">Agencja</a></li>
               <li>
                 <a class="header-nav__item header-nav__item_margin-right" href="portfolio.html"
                   >Portfolio</a
                 >
+
               </li>
               <li><a class="header-nav__item" href="#">Kontakt</a></li>
             </ul>
           </nav>
+          <div class="header-contacts">
 
            <a class="header-mail" href="mailto:info@devstudio.com">
                            <svg class="header-mail__icon" >
@@ -52,6 +59,7 @@
              <svg class="header-tel__icon">
             <use href="./Images/icons.svg#icon-smartphone">
           <span>+48 111 111 111</span></a>
+        </div>
         </div>
       </div>
     </header>
@@ -73,54 +81,55 @@
           <!-- SEKCJA ZACZĘTA OD container i w niej cala reszta-->
           <ul class="four-icons__images">
             <li>
+              <div class="four-icons__background">
              <svg>
                 <use  href="Images/icons.svg#icon-antenna"></use>
               </svg>
+              </div>
+                <h3>LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+              </li>
               <li>
-              <svg>
-                <use href="Images/icons.svg#icon-clock" ></use></svg>
-            </li>
-            <li>
-              <svg>
-                <use href="Images/icons.svg#icon-diagram"></use>
+              <div class="four-icons__background">
+             <svg>
+                <use  href="Images/icons.svg#icon-clock"></use>
               </svg>
+              </div>
+                <h3>LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
             </li>
             <li>
-              <svg>
+               <div class="four-icons__background">
+             <svg>
+                <use  href="Images/icons.svg#icon-diagram"></use>
+              </svg>
+              </div>
+                <h3>LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+               <div class="four-icons__background">
+             <svg>
                 <use  href="Images/icons.svg#icon-astronaut"></use>
               </svg>
-            </li>
-          </ul>
-          <ul class="four-icons__descriptions">
-            <li>
-              <h3>LOREM IPSUM</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
-            </li>
-            <li>
-              <h3>LOREM IPSUM</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
-            </li>
-            <li>
-              <h3>LOREM IPSUM</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
-            </li>
-            <li>
-              <h3>LOREM IPSUM</h3>
+              </div>
+                <h3>LOREM IPSUM</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
           </ul>
+      
         </div>
       </section>
 <!--                                CZYM SIE ZAJMUJEMY                   -->
@@ -181,8 +190,7 @@
                 <img
                   src="Images/people/img-a-.jpg"
                   alt="team1"
-                  width="270"
-                  height="260"
+                
                 />
                 <figcaption class="our-team__figcaption">
                   John Doe
@@ -365,7 +373,7 @@
         <ul class="our-clients__logos">
           <li>
             <a href="#">
-            <svg width="170px" height="92px">
+            <svg height="92px">
               <use href="Images/icons.svg#icon-Logo"></use>
             </svg>
                         </a>
@@ -375,7 +383,7 @@
            <li>
                          <a href="#">
 
-            <svg width="170px" height="92px">
+            <svg height="92px">
               <use href="Images/icons.svg#icon-Logo-1"></use>
             </svg>
                         </a>
@@ -385,7 +393,7 @@
            <li>
                          <a href="#">
 
-            <svg width="170px" height="92px">
+            <svg height="92px">
               <use href="Images/icons.svg#icon-Logo-2"></use>
             </svg>
                         </a>
@@ -395,7 +403,7 @@
            <li>
                          <a href="#">
 
-            <svg width="170px" height="92px">
+            <svg height="92px">
               <use href="Images/icons.svg#icon-Logo-3"></use>
             </svg>
                         </a>
@@ -405,7 +413,7 @@
            <li>
                          <a href="#">
 
-            <svg width="170px" height="92px">
+            <svg height="92px">
               <use href="Images/icons.svg#icon-Logo-4"></use>
             </svg>
                         </a>
@@ -415,7 +423,7 @@
            <li>
                          <a href="#">
 
-            <svg width="170px" height="92px">
+            <svg height="92px">
               <use href="Images/icons.svg#icon-Logo-5"></use>
             </svg>
             </a>
@@ -558,10 +566,44 @@
           </label>
           <button class="submit-modal"  >Wyślij</button>
       </form>
-      </div>
-
-     
+      
+</div>
+     </div>
     </div>
+
+         <div class="backdrop is-hidden" mobile-menu>
+
+         <div class="mobile-modal">
+           <svg class="mobile-modal__close-btn" width="20px" height="20px" mobile-menu-close>
+             <use href="./Images/symbol-defs.svg#icon-x" width="20px" height="20px"></use>
+           </svg>
+              <nav>
+            <ul class="mobile-modal__nav">
+              <li><a class="mobile-modal__item  " href="index.html">Agencja</a></li>
+              <li>
+                <a class="mobile-modal__item header-nav__item_margin-right" href="portfolio.html"
+                  >Portfolio</a
+                >
+
+              </li>
+              <li><a class="mobile-modal__item" href="#">Kontakt</a></li>
+            </ul>
+          </nav>
+                     <a class="mobile-modal__mail" href="mailto:info@devstudio.com">
+                     info@devstudio.com</a>
+          <a class="mobile-modal__tel" href="tel:+48111111111">
++48111111111 </a>
+<ul class="mobile-modal__socials">
+  <li>Instagram</li>
+  <li>Twitter</li>
+  <li>Facebook</li>
+  <li>Linkedin</li>
+</ul>
+           </div>
+           </div>
+
 <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+
   </body>
 </html>

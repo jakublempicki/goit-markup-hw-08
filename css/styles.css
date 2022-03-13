@@ -44,13 +44,22 @@ ul {
 main {
     padding-bottom: 94px;
 }
-.four-icons__descriptions p {
+/* .four-icons__descriptions p {
     font-size: 14px;
     font-weight: 400;
     color: #757575;
     line-height: 1.71;
     margin-top: 10px;
 }
+.four-icons__descriptions li {
+    width: 270px;
+}
+
+.four-icons__descriptions {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+} */
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -65,14 +74,7 @@ main {
 
 
 
-.four-icons__descriptions li {
-    width: 270px;
-}
-.four-icons__descriptions {
-    margin-top: 30px;
-        display: flex;
-            justify-content: space-around;
-}
+
 
 .what-wedo__list {
     display: flex;

@@ -1,3 +1,4 @@
+@media (min-width: 1200px) {
 .our-clients h2 {
     text-align: center;
     margin-bottom: 50px;
@@ -6,14 +7,11 @@
 .our-clients {
     padding-bottom: 94px;
 }
-
-.our-clients__logos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
+ .our-clients__logos {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
 .our-clients__logos svg {
     border-radius: 4px;
     fill: #AFB1B8;
@@ -21,11 +19,69 @@
     transition-property: fill, border;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
-
+    width: 170px;
 }
-
 .our-clients__logos svg:hover {
     fill: #2196F3;
     border: 1px solid #2196F3;
+}
+}
+///                     480   px            ////
+@media (min-width: 480px) {
+.our-clients h2 {
+    padding-top: 60px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.our-clients__logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.our-clients__logos svg {
+    border-radius: 4px;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    width: 210px;
+}
+.our-clients__logos li {
+    margin-top: 30px;
+}
+}
 
+///                     780   px            ////
+@media (min-width: 768px) {
+    .our-clients__logos {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center; 
+}
+.our-clients__logos svg {
+    width: 226px;
+}
+}
+ 
+@media (min-width: 1200px) {
+     .our-clients__logos {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+     }
+   .our-clients__logos svg {
+       border-radius: 4px;
+       fill: #AFB1B8;
+       border: 1px solid #AFB1B8;
+       transition-property: fill, border;
+       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+       transition-duration: 250ms;
+       width: 170px;
+   }
 }

@@ -1,0 +1,84 @@
+
+.mobile-modal {
+    position: absolute;
+    // left: 50%;
+    // top: 50%;
+    width: 480px;
+    height: 796px;
+    background-color: #FFFFFF;
+    position: fixed;
+}
+.mobile-modal__close-btn {
+    position: relative;
+  left: 445px;
+    top: 21px;
+}
+.mobile-modal__item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+       color: #212121;
+       text-decoration: none;
+       height: 16px;
+       transition-property: color;
+       transition-duration: 250ms;
+       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-modal__nav {
+margin-top: 35px;
+margin-left: 40px;
+}
+.mobile-modal__nav :nth-child(2) {
+    margin-top: 36px;
+}
+.mobile-modal__nav :nth-child(3) {
+    margin-top: 32px;
+}
+
+.mobile-modal__mail,
+.mobile-modal__tel {
+    display: block;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    color: #757575;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.mobile-modal__mail {
+    margin-top: 302px;
+}
+.mobile-modal__tel {
+    margin-top: 32px;
+}
+.mobile-modal__socials {
+    display: flex;
+    justify-content: space-between;
+margin-top: 64px;
+margin-left: 40px;
+margin-right: 83px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+
+letter-spacing: 0.02em;
+
+color: #2196F3;
+}
+.mobile-modal__mail:hover,
+.mobile-modal__mail:focus,
+.mobile-modal__tel:hover,
+.mobile-modal__tel:focus,
+.mobile-modal__item:hover,
+.mobile-modal__item:focus {
+    fill: #2196F3;
+    color: #2196F3;
+}
+
+

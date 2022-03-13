@@ -124,21 +124,157 @@
 .section_figcaption {
     margin-top: 20px;
     margin-left: 24px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 35px;
+        margin-bottom: 20px;
 }
 
 .section_figcaption_span {
     margin-top: 4px;
+          font-size: 16px;
+          font-weight: 400;
+          color: #757575;
 }
-.section_figcaption {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 35px;
-    margin-bottom: 20px;
-
-
-}
-
 .section_figcaption p {
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+
+////////    480    px////
+@media (min-width: 480px) {
+.section-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 60px;
+margin-left: 15px;
+}
+.portfolio_buttons.Wszystkie {
+    width: 103px;
+}
+
+.portfolio_buttons.strony {
+    width: 128px;
+}
+
+.portfolio_buttons.Aplikacje {
+    width: 145px;
+}
+
+.portfolio_buttons.dizajn {
+    width: 103px;
+}
+
+.portfolio_buttons.marketing {
+    width: 130px;
+}
+.portfolio_buttons {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.section_ul {
+    margin-top: 25px;
+}
+figure {
+    width: 450px;
+}
+.section_ul img {
+    width: 450px;
+    height: 294px;
+}
+}
+
+//////                      768 px                 ////
+@media (min-width: 768px) {
+    .section-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-top: 60px;
+        margin-left: 15px;
+    }
+.section-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 15px;
+}
+.portfolio_buttons.Wszystkie {
+    width: 103px;
+}
+
+.portfolio_buttons.strony {
+    width: 128px;
+}
+
+.portfolio_buttons.Aplikacje {
+    width: 145px;
+}
+
+.portfolio_buttons.dizajn {
+    width: 103px;
+}
+
+.portfolio_buttons.marketing {
+    width: 130px;
+}
+figure {
+    width: 354px;
+}
+
+.section_ul img {
+    width: 354px;
+    height: 294px;
+}
+.section_ul li:nth-child(9) {
+        margin-right: auto;
+        margin-left: 15px;
+}
+}
+
+
+
+//////                      1200 px                 ////
+@media (min-width: 1200px) {
+.section-nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: 0;
+}
+.portfolio_buttons.Wszystkie {
+    width: 121px;
+}
+
+.portfolio_buttons.strony {
+    width: 93px;
+}
+
+.portfolio_buttons.Aplikacje {
+    width: 114px;
+}
+
+.portfolio_buttons.dizajn {
+    width: 91px;
+}
+
+.portfolio_buttons.marketing {
+    width: 121px;
+}
+.portfolio_buttons {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.section_ul {
+    margin-top: 0px;
+}
+figure {
+    width: 370px;
+}
+.section_ul img {
+    width: 370px;
+    height: 294px;
+}
 }

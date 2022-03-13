@@ -1,40 +1,153 @@
-.four-icons{
+.four-icons {
     margin-top: 94px;
 }
-.four-icons__images {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-        & li {
-             background-color: #F5F4FA;
-             width: 270px;
-             height: 120px;
-        }
-        & svg {
-             width: 270px;
-             height: 70px;
-             margin: auto;
-             margin-top: 25px;
-        }
-    }
 
-.four-icons__descriptions {
-      margin-top: 30px;
-      display: flex;
-      justify-content: space-around;
-    & p {
-            font-size: 14px;
-            font-weight: 400;
-            color: #757575;
-            line-height: 1.71;
-            margin-top: 10px;
+// .four-icons__images {
+//     display: flex;
+//     justify-content: space-around;
+//     align-items: center;
+// }
+
+
+
+// .four-icons__images svg {
+//     width: 270px;
+//     height: 70px;
+//     margin: auto;
+//     margin-top: 25px;
+// }
+
+
+        // & li {
+        //       background-color: #F5F4FA;
+        //       width: 270px;
+        //       height: 120px;
+        
+    
+
+
+//        480  px         //
+@media (min-width: 480px) {
+.four-icons {
+margin-top: 60px;
+}
+.four-icons__background {
+    background-color: #F5F4FA;
+       margin-top: 30px;
+       width: 450px;
+       margin-left: auto;
+       margin-right: auto;
+}
+.four-icons__background svg {
+    height: 70px;
+    margin: 25px 0px;
+}
+.four-icons__images {
+    display: block;
+}
+.four-icons__images li {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.four-icons__images svg {
+        margin-top: 25px;
+        width: 450px;
     }
-    & li {
-            width: 270px;
+.four-icons__images h3 {
+        text-align: center;
+        margin-top: 30px;
     }
+.four-icons__images p {
+ font-family: Roboto;
+ font-size: 14px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 24px;
+ letter-spacing: 0.03em;
+ text-align: left;
+margin-top: 10px;
+}
+}
+//                      768     px                        //
+
+@media (min-width: 768px) {
+.four-icons {
+    margin-top: 60px;
+    &__background {
+        width: 354px;
+        height: 120px;
+        background-color: #F5F4FA;
+        border-radius: 4px;
+    }
+    }
+@media (min-width: 768px) { 
+     .four-icons__images {
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+         justify-content: space-around;
+     }
+    .four-icons__images svg {
+         width: 354px;
+         height: 70px;
+    }
+    .four-icons__images li {
+    width: 354px;
+}
 }
 
 
 
 
 
+
+//                      1200                         //
+@media (min-width: 1200px) {
+    .four-icons {
+        margin-top: 94px;
+
+        &__background {
+            width: 270px;
+            height: 120px;
+            background-color: #F5F4FA;
+            border-radius: 4px;
+            margin-top: 0px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .four-icons__images {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .four-icons__images li {
+            background-color: #F5F4FA;
+            width: 270px;
+            height: 120px;
+        }
+        .four-icons__images svg {
+            width: 270px;
+            height: 70px;
+            margin: auto;
+            margin-top: 25px;
+        }
+        .four-icons__images p {
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.03em;
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        
+        .four-icons__images h3 {
+            margin-top: 30px;
+        }
+    }
+}
+}

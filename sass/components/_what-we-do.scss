@@ -1,20 +1,31 @@
+
+
+@media (max-width: 1199px) {
+    .what-wedo {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
 .what-wedo h2 {
     text-align: center;
     margin-top: 94px;
     margin-bottom: 50px;
 }
-
 .what-wedo {
     margin-bottom: 94px;
+    padding-top: 94px;
 }
-
+}
+@media (min-width: 1200px) {
 .what-wedo__list {
     display: flex;
     justify-content: space-between;
-    & li {
+}
+.what-wedo__list li {
             position: relative;
     }
-    & div {
+.what-wedo__list div {
   position: absolute;
   top: 224px;
   width: 370px;
@@ -23,7 +34,7 @@
   text-align: center;
   color: #FFFFFF;
     }
-    & p {
+.what-wedo__list p {
           margin-top: 27px;
           margin-bottom: 27px;
           font-weight: 700px;
@@ -31,8 +42,6 @@
           line-height: 16.41px;
     }
 }
-
-
 
 
 
